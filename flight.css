@@ -1,0 +1,19 @@
+label {
+    width: 6em;
+    display:inline-block
+}
+div {
+    margin-bottom: .25em;
+}
+
+span.error {
+    color:red;
+}
+
+th {
+    background-color: skyblue;
+}
+
+td {
+    background-color: gold;
+}

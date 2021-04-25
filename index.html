@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="flight.css" rel="stylesheet">
+    </head>
+    <body>
+        <main>
+            <h1>Flight Lister</h1>
+            
+            <div>
+                <label for="latitude">Latitude:</label>
+                <input type="text" id="latitude" name="latitude" placeholder="37.5">
+                <span class="error"></span>
+            </div>
+            <div>
+                <label for="longitude">Longitude</label>
+                <input type="text" id="longitude" name="longitude" placeholder="-122">
+                <span class="error"></span>
+            </div>
+            <div>
+                <label>&nbsp;</label>
+                <input type="button" value="Fetch Flights" id="fetch" name="fetch">
+            </div>
+            <div>
+                <span id="display"></span>
+            </div>
+            <div>
+                <span id="table"></span>
+            </div>
+
+        </main>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+        <script src="flight.js"></script>
+    </body>
+</html>
